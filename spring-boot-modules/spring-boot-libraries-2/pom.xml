@@ -93,6 +93,7 @@
                             <inputSpec>
                                 ${project.basedir}/src/main/resources/petstore.yml
                             </inputSpec>
+                            <!-- https://github.com/OpenAPITools/openapi-generator/blob/master/docs/generators/spring.md -->
                             <generatorName>spring</generatorName>
                             <!-- This is the Java package base on which the generated files will
                             be located -->
